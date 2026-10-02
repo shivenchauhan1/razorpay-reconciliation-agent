@@ -148,7 +148,7 @@ def run(skip_generate: bool = False) -> int:
     # -----------------------------------------------------------------------
     # Step 6 — LLM narration
     # -----------------------------------------------------------------------
-    _step(6, TOTAL_STEPS, "LLM narration (Claude — fallback-safe)")
+    _step(6, TOTAL_STEPS, "LLM narration")
     exceptions_df = explain_exceptions(exceptions_df)
 
     # -----------------------------------------------------------------------

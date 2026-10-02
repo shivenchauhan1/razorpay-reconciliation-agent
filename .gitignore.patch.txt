@@ -1,0 +1,4 @@
+No .gitignore change is required for Streamlit deployment.
+
+Keep your existing rules that ignore .env and generated data/output files.
+The Streamlit app regenerates data and output at runtime.
